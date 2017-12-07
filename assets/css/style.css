@@ -1,0 +1,27 @@
+body {
+	background-image: url("../images/background-image.jpg");
+}
+
+h1 {
+	font-family: 'Frijole', cursive;
+	letter-spacing: 3px;
+	color: black;
+}
+
+#displayPic {
+
+	height: 100%;
+	width: 100%;
+}
+
+.gameArea {
+	background-color: black;
+	font-family: 'Frijole', cursive;
+	letter-spacing: 3px;
+	color: white;
+}
+
+.container {
+	border-style: dashed;
+}
+

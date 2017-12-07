@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hangman!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div id="title" class="text-center">
+    	<h1>Hangman</h1>
+    	<h1>College Football Edition</h1>
+    </div>
+    <div class="gameArea text-center" id="schoolName">
+    	<a></a>
+    </div>
+    <div class="container gameArea">
+        <div class="row">
+            <div class="col border border-white text-center">
+                <img id="displayPic" src="assets/images/Default-Hangman.jpg">
+            </div>
+            <div class="col text-center">
+                <div class="gameArea align-middle">Can you guess the mascot?! Press any key to get started!</div>
+                <br>
+                <div class="gameArea align-middle" id="wins">Wins</div>
+                <br>
+                <div class="gameArea align-middle">Current Word</div>
+                <br>
+                <div id="mysteryWord" class="gameArea align-middle"></div>
+                <br>
+                <div class="gameArea align-middle">Number of Guesses Remaining</div>
+                <br>
+                <div id="numberGuesses" class="gameArea align-middle"></div>
+                <br>
+                <div class="gameArea align-middle">Letters Already Guessed</div>
+                <br>
+                <div id="letterGuesses" class="gameArea align-middle"></div>
+            </div>
+        </div>
+</body>
+
+</html>
