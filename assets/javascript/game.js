@@ -129,7 +129,7 @@ $(document).ready(function() {
         if (mysteryWord == currentWord) {
             wins++;
             $("#schoolName").html("<h2>" + currentSchool + " " + currentWordReg + "</h2>");
-            $("#displayPic").replaceWith("<img class='img-fluid' id='displayPic' src='assets/images/" + currentWord + ".jpg'>");
+            $("#displayPic").replaceWith("<img class='img-fluid' id='displayPic' src='../images/" + currentWord + ".jpg'>");
             $("#winNumber").text(wins);
             audioElement.setAttribute("src", "assets/images/audio/" + currentSchool + ".mp3");
             audioElement.play();
